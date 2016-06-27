@@ -1,0 +1,25 @@
+<layout id="WatchFace">
+
+	<drawable id="Background" class="Background">
+		<param name="locX">36</param>
+		<param name="locY">109</param>
+		<param name="bgcolor">Gfx.COLOR_BLACK</param>
+	</drawable>
+	
+    <label id="HourLabel" x="70" y="6" font="Rez.Fonts.id_arialBold" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="Gfx.COLOR_WHITE" />
+    <label id="MinLabel" x="70" y="50" font="Rez.Fonts.id_arialNormal" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="Gfx.COLOR_WHITE" />
+    <label id="DateLabel" x="62" y="103" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="Gfx.COLOR_WHITE" />
+    <label id="SuccessLabel" x="140" y="50" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="Gfx.COLOR_WHITE" />
+    
+    <drawable id="ActionBar" class="ActionBar">
+    	<param name="justification">Gfx.TEXT_JUSTIFY_RIGHT</param>
+    	<param name="color">Gfx.COLOR_WHITE</param>
+    	<param name="emptyColor">Gfx.COLOR_RED</param>
+    </drawable>
+    
+    <drawable id="MoveBar" class="MoveBar">
+    	<param name="color">Gfx.COLOR_WHITE</param>
+    	<param name="bgColor">0xcfb97d</param>
+    </drawable>
+    
+</layout>

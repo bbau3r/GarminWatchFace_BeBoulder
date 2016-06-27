@@ -1,0 +1,7 @@
+<resources>
+	<fonts>
+        <font id="id_actionBar" filename="actionBar.fnt" filter="0123 " />
+        <font id="id_arialBold" filename="arialBold.fnt" filter="0123456789 " />
+        <font id="id_arialNormal" filename="arialNormal.fnt" filter="0123456789 " />
+    </fonts>
+</resources>
